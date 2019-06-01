@@ -1,0 +1,52 @@
+[  
+    {  
+        "text":"Which of the following words would you use to describe our product?",
+        "id":"1",
+        "break_after":true,
+        "required":true,
+        "type":"single-select",
+        "options":[  
+            "buggy",
+            "Fine",
+            "Great",
+            "Life-saving"
+        ]
+     },
+     {  
+       "text":"How would you rate the value for money of the product?",
+       "id":"2",
+       "break_after":true,
+       "required":true,
+       "type":"single-select",
+       "options":[  
+          "Bad",
+          "Regular",
+          "Good"
+       ]
+    },
+    {  
+       "text":"What gets wetter and wetter the more it dries?",
+       "id":"3",
+       "required":true,
+       "type":"single-select",
+       "options":[  
+         "Badly",
+         "Fine",
+         "Well",
+         "Very-Well"
+       ]
+    },
+    {  
+       "text":"How easy is it to navigate our website?",
+       "id":"4",
+       "type":"single-select",
+       "options":[  
+          "Very Difficult",
+          "Difficult",
+          "Regular",
+          "Easy",
+          "Very Easy"
+       ]
+    }
+ ]
+ 

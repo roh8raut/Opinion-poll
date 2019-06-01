@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.header {
+    text-align: center;
+    font-weight: 700;
+}
+
+.question {
+    font-weight: 600;
+    font-size: medium;
+    padding-top: 30px;
+}

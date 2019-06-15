@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;  
+    padding-bottom: 50px;
 }
 
 .header {
@@ -11,4 +12,15 @@ body {
     font-weight: 600;
     font-size: medium;
     padding-top: 30px;
+}
+
+.submit{
+    width: 135px;
+    margin-left: 100px;
+    margin-top: 15px;
+    transition: all .1s ease-in-out;
+}
+
+.submit:hover { 
+    transform: scale(1.1); 
 }

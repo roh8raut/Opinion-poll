@@ -2,7 +2,6 @@
     {  
         "text":"Which of the following words would you use to describe our product?",
         "id":"1",
-        "break_after":true,
         "required":true,
         "type":"single-select",
         "options":[  
@@ -15,7 +14,6 @@
      {  
        "text":"How would you rate the value for money of the product?",
        "id":"2",
-       "break_after":true,
        "required":true,
        "type":"single-select",
        "options":[  

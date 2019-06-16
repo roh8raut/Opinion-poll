@@ -3,6 +3,31 @@ body {
     padding-bottom: 50px;
 }
 
+.modal {
+    padding-top: 150px !important;
+}
+
+.text-box {
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 6px grey;
+    text-indent: 15px;
+}
+
+.name-error {
+    display: none;
+    color: red;
+    font-size: smaller;
+    font-weight: 600;
+    margin: 5px 0 0 50px;
+}
+
+.name {
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
 .header {
     text-align: center;
     font-weight: 700;

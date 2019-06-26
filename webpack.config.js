@@ -52,6 +52,10 @@ module.exports = {
         ]
     },
 
+    node: {
+        fs: "empty"
+     },
+
     devtool: 'cheap-module-source-map',
     devServer: {}
 };

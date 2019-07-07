@@ -1,6 +1,5 @@
 var data = require('./question.json');
-// import opinionObj from './opinions';
-import {writeFile} from 'fs';
+
 
 class questionGenerator{
     private name: any ;
@@ -87,12 +86,11 @@ class questionGenerator{
         })
     }    
     public submitOpinion(ansArr: any) {     
-        console.log("opnionsObj", this.opinionObj);
-        
-        this.opinionObj.opinionData.push({name: this.name, opinions: ansArr});
         this.opinionObj.opinionData.push({name: this.name, opinions: ansArr});
         console.log(JSON.stringify(this.opinionObj));
-        // location.reload();
+        var ale = `Thanks for submitting your opinions ${this.name}`;
+        alert(ale);
+        location.reload();     
     }   
 
 
